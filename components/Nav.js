@@ -14,9 +14,10 @@ export default function Nav() {
         Sarah Ilyas
       </a>
       <div style={{ display: "flex", alignItems: "center", gap: 32 }}>
-        <a href="/articles" style={{ fontSize: 13, color: "var(--text-muted)" }}>Articles</a>
-        <a href="/projects" style={{ fontSize: 13, color: "var(--text-muted)" }}>Projects</a>
-        <a href="/about" style={{ fontSize: 13, color: "var(--text-muted)" }}>About</a>
+        <a href="/articles" className="nav-link">Articles</a>
+        <a href="/projects" className="nav-link">Projects</a>
+        <a href="/about" className="nav-link">About</a>
+        <a href="https://www.linkedin.com/in/sarahilyas/" target="_blank" className="nav-link">LinkedIn</a>
         <a href="mailto:sarahilyas8@gmail.com" style={{ fontSize: 12, padding: "7px 16px", borderRadius: 8, background: "var(--text)", color: "var(--bg)", fontWeight: 500 }}>
           Get in touch
         </a>

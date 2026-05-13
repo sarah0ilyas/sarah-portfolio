@@ -2,7 +2,7 @@ export default function ProjectGrid({ projects }) {
   return (
     <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
       {projects.map((project) => (
-        <div key={project.name} style={{ background: "var(--bg-2)", border: "1px solid var(--border)", borderRadius: 12, padding: 20 }}>
+        <div key={project.name} className="proj-card">
           <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 10 }}>
             <div style={{ width: 32, height: 32, borderRadius: 8, background: "var(--bg-3)", border: "1px solid var(--border-2)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 15 }}>
               {project.icon}
@@ -16,8 +16,8 @@ export default function ProjectGrid({ projects }) {
             ))}
           </div>
           <div style={{ display: "flex", gap: 12 }}>
-            {project.github && <a href={project.github} target="_blank" style={{ fontSize: 11, color: "#888" }}>↗ GitHub</a>}
-            {project.demo && <a href={project.demo} target="_blank" style={{ fontSize: 11, color: "#888" }}>↗ Live demo</a>}
+            {project.github && <a href={project.github} target="_blank" style={{ fontSize: 11, color: "var(--text-dim)" }}>↗ GitHub</a>}
+            {project.demo && <a href={project.demo} target="_blank" style={{ fontSize: 11, color: "var(--text-dim)" }}>↗ Live demo</a>}
           </div>
         </div>
       ))}
