@@ -13,7 +13,7 @@ export default function Hero() {
           ML Engineer · Istanbul
         </div>
         <h1 style={{ fontSize: 56, fontWeight: 500, letterSpacing: "-0.04em", lineHeight: 1.1, marginBottom: 12 }}>
-          Building systems<br />that stay accurate
+          Sarah Ilyas<br />Data Scientist/ ML Engineer
         </h1>
         <p style={{ fontSize: 14, color: "var(--text-muted)", lineHeight: 1.75, marginBottom: 28, maxWidth: 420 }}>
           I design and build production ML pipelines — from drift detection to automated retraining. Currently working on agricultural yield forecasting at scale.
