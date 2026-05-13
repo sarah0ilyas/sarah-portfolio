@@ -36,7 +36,9 @@ function ArticleRow({ article }) {
           ))}
         </div>
       </div>
-      <span style={{ color: hovered ? "#64ffda" : "#8892b0", fontSize: 16, flexShrink: 0, transition: "all 0.2s", transform: hovered ? "translateX(4px)" : "translateX(0)" }}>→</span>
+      <span style={{ color: hovered ? "#64ffda" : "#8892b0", fontSize: 16, flexShrink: 0, transition: "all 0.2s", transform: hovered ? "translateX(4px)" : "translateX(0)" }}>
+        →
+      </span>
     </a>
   );
 }

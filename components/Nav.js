@@ -42,19 +42,7 @@ export default function Nav() {
         <NavLink href="/projects">Projects</NavLink>
         <NavLink href="/about">About</NavLink>
         <NavLink href="https://www.linkedin.com/in/sarahilyas/" target="_blank">LinkedIn</NavLink>
-        
-          href="mailto:sarahilyas8@gmail.com"
-          style={{
-            fontSize: 12,
-            padding: "7px 16px",
-            borderRadius: 4,
-            background: "transparent",
-            color: "#64ffda",
-            fontWeight: 500,
-            border: "1px solid #64ffda",
-            letterSpacing: "0.05em",
-          }}
-        >
+        <a href="mailto:sarahilyas8@gmail.com" style={{ fontSize: 12, padding: "7px 16px", borderRadius: 4, background: "transparent", color: "#64ffda", fontWeight: 500, border: "1px solid #64ffda", letterSpacing: "0.05em" }}>
           Get in touch
         </a>
       </div>
