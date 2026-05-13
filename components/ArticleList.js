@@ -30,15 +30,11 @@ function ArticleRow({ article }) {
           <span>{article.date}</span>
           <span>{article.readTime}</span>
           {article.tags.map(tag => (
-            <span key={tag} style={{ fontSize: 10, color: "#64ffda", background: "rgba(100,255,218,0.1)", border: "1px solid rgba(100,255,218,0.3)", padding: "2px 8px", borderRadius: 4 }}>
-              {tag}
-            </span>
+            <span key={tag} style={{ fontSize: 10, color: "#64ffda", background: "rgba(100,255,218,0.1)", border: "1px solid rgba(100,255,218,0.3)", padding: "2px 8px", borderRadius: 4 }}>{tag}</span>
           ))}
         </div>
       </div>
-      <span style={{ color: hovered ? "#64ffda" : "#8892b0", fontSize: 16, flexShrink: 0, transition: "all 0.2s", transform: hovered ? "translateX(4px)" : "translateX(0)" }}>
-        →
-      </span>
+      <span style={{ color: hovered ? "#64ffda" : "#8892b0", fontSize: 16, flexShrink: 0, transition: "all 0.2s", transform: hovered ? "translateX(4px)" : "translateX(0)" }}>→</span>
     </a>
   );
 }
