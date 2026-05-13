@@ -35,7 +35,7 @@ export default function Hero() {
         </div>
       </div>
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14, paddingTop: 8 }}>
-        <div style={{ width: 200, height: 240, borderRadius: 16, background: "var(--bg-2)", border: "1px solid var(--border)", overflow: "hidden" }}>
+        <div style={{ width: 220, height: 220, borderRadius: "50%", overflow: "hidden", border: "2px solid var(--border)" }}>
           <img
             src="/images/profile.jpg"
             alt="Sarah Ilyas"
