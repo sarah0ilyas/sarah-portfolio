@@ -10,7 +10,7 @@ export default function Hero() {
     }}>
       <div>
         <div style={{ fontSize: 11, letterSpacing: "0.08em", color: "var(--text-dim)", textTransform: "uppercase", marginBottom: 20 }}>
-          ML Engineer · Istanbul
+          
         </div>
         <h1 style={{ fontSize: 56, fontWeight: 500, letterSpacing: "-0.04em", lineHeight: 1.1, marginBottom: 12 }}>
           Sarah Ilyas<br />Data Scientist/ ML Engineer
