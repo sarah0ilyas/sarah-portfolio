@@ -50,7 +50,7 @@ export default function Hero() {
           </a>
         </div>
         <div style={{ display: "flex", flexWrap: "wrap", gap: 7 }}>
-          {["Python", "Time Series", "PyTorch", "Prophet", "SHAP", "Optuna", "MLflow", "FastAPI", "Docker", "AWS", "LangGraph", "Streamlit"].map(tag => (
+          {["Python", "Time Series Analysis", "PyTorch", "Prophet", "SHAP", "Optuna", "MLflow", "FastAPI", "Docker", "AWS", "LangGraph", "Streamlit"].map(tag => (
             <SkillTag key={tag} label={tag} />
           ))}
         </div>
