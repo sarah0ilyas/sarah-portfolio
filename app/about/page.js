@@ -4,7 +4,7 @@ export default function AboutPage() {
   return (
     <main>
       <Nav />
-      <div style={{ maxWidth: 720, margin: "0 auto", padding: "0 4rem" }}>
+      {/* <div style={{ maxWidth: 720, margin: "0 auto", padding: "0 4rem" }}>
         <div style={{ padding: "56px 0" }}>
           <div style={{ fontSize: 11, letterSpacing: "0.08em", color: "var(--text-dim)", textTransform: "uppercase", marginBottom: 16 }}>About</div>
           <h1 style={{ fontSize: 36, fontWeight: 500, letterSpacing: "-0.03em", marginBottom: 32 }}>Sarah Ilyas</h1>
@@ -30,7 +30,7 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }
