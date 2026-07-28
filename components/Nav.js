@@ -28,7 +28,7 @@ export default function Nav() {
     <nav style={{ borderBottom: "1px solid #1e3a5f", padding: "0 4rem", height: 64, display: "flex", alignItems: "center", justifyContent: "space-between", maxWidth: 1280, margin: "0 auto" }}>
       <a href="/" style={{ fontSize: 15, fontWeight: 500, color: "#ccd6f6", textDecoration: "none" }}>Sarah Ilyas</a>
       <div style={{ display: "flex", alignItems: "center", gap: 32 }}>
-        <NavLink href="/articles">Articles</NavLink>
+        {/* <NavLink href="/articles">Articles</NavLink> */}
         <NavLink href="/projects">Projects</NavLink>
         <NavLink href="/about">About</NavLink>
         <NavLink href="https://www.linkedin.com/in/sarahilyas/" target="_blank">LinkedIn</NavLink>
