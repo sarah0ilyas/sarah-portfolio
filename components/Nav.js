@@ -30,7 +30,7 @@ export default function Nav() {
       <div style={{ display: "flex", alignItems: "center", gap: 32 }}>
         {/* <NavLink href="/articles">Articles</NavLink> */}
         <NavLink href="/projects">Projects</NavLink>
-        <NavLink href="/about">About</NavLink>
+        {/* <NavLink href="/about">About</NavLink> */}
         <NavLink href="https://www.linkedin.com/in/sarahilyas/" target="_blank">LinkedIn</NavLink>
         <a href="mailto:sarahilyas8@gmail.com" style={{ fontSize: 12, padding: "7px 16px", borderRadius: 4, background: "transparent", color: "#64ffda", fontWeight: 500, border: "1px solid #64ffda", textDecoration: "none" }}>Get in touch</a>
       </div>
