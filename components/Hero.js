@@ -48,9 +48,9 @@ export default function Hero() {
           <a href="/projects" style={{ fontSize: 12, padding: "9px 20px", borderRadius: 4, background: "transparent", color: "#64ffda", fontWeight: 500, border: "1px solid #64ffda", letterSpacing: "0.05em" }}>
             View projects
           </a>
-          <a href="/articles" style={{ fontSize: 12, padding: "9px 20px", borderRadius: 4, color: "#8892b0", border: "1px solid #1e3a5f", letterSpacing: "0.05em" }}>
+          {/*<a href="/articles" style={{ fontSize: 12, padding: "9px 20px", borderRadius: 4, color: "#8892b0", border: "1px solid #1e3a5f", letterSpacing: "0.05em" }}>
             Read articles
-          </a>
+          </a>*/}
         </div>
         <div style={{ display: "flex", flexWrap: "wrap", gap: 7 }}>
           {["Python", "XGBoost", "MLOps", "FastAPI", "Docker", "AWS"].map(tag => (
