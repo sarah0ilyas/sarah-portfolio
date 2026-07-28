@@ -30,12 +30,20 @@ const recentArticles = [
 const projects = [
   {
     name: "Cropcast",
-    description: "Production ML pipeline for agricultural yield forecasting across 13 countries.",
+    description: "Production ML pipeline for agricultural yield forecasting across 13 countries. Automated drift detection, weekly retraining, FastAPI on AWS EC2.",
     tags: ["xgboost", "mlops", "fastapi", "docker"],
     github: "https://github.com/sarah0ilyas/Cropcast",
     demo: "",
     icon: "🌿",
-  }
+  },
+  {
+    name: "AvoGrade",
+    description: "Real-time avocado ripeness grading using ResNet18 transfer learning. Cache-first FastAPI serving with graceful fallback, batch scoring, and PSI/KS drift monitoring. 78% accuracy on a leakage-safe fruit-level split.",
+    tags: ["pytorch", "resnet18", "fastapi", "docker", "streamlit"],
+    github: "https://github.com/sarah0ilyas/avograde",
+    demo: "",
+    icon: "🥑",
+  },
 ];
 
 export default function Home() {
